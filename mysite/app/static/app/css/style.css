@@ -5,10 +5,23 @@ body {
     background-position: center;
     background-size: cover;
 }
-
-body h1{
+body section{
+    height: 490px;
+}
+body section h1, a.h1{
     margin-top: 220px;
     color:#ffffff;
     letter-spacing: 15px;
     text-transform: uppercase;
+    text-align: center;
+}
+a.h1:link {
+    text-decoration: none;
+}
+a.h1:visited {
+    color:#ffffff;
+}
+a.h1:hover{
+    color:blueviolet;
+    font-size: 1.6em;
 }
